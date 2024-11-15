@@ -16,6 +16,7 @@ Blockly.Blocks['pinmode1114'] = {
   }
 };
 
+
 Blockly.Blocks['encodemotor'] = {
   init: function() {
     this.appendDummyInput()
