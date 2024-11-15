@@ -6,11 +6,11 @@ Blockly.Blocks['pinmode1114'] = {
     this.appendDummyInput()
         .appendField("為");
     this.appendDummyInput()
-        .appendField(new Blockly.FieldDropdown([["輸出OUTPUT","OUTPUT"], ["輸入INPUT","INPUT"]]), "i2");
+        .appendField(new Blockly.FieldDropdown([["輸入INPUT","INPUT"], ["輸出OUTPUT","OUTPUT"]]), "i2");
     this.setInputsInline(true);
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
-    this.setColour(230);
+    this.setColour(50);
  this.setTooltip("");
  this.setHelpUrl("");
   }
